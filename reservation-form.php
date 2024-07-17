@@ -80,7 +80,7 @@
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                         <div class="field-inner">
 
-                                            <button type="" name="send" class="theme-btn btn-style-one clearfix">
+                                            <button type='submit' name="send" class="theme-btn btn-style-one clearfix">
                                                 <span class="btn-wrap">
                                                     <span class="text-one">book a table</span>
                                                     <span class="text-two">book a table</span>
@@ -91,8 +91,6 @@
                                     </div>
                                 </div>
                             </form>
-
-
                         </div>
                     </div>
                 </div>
@@ -182,14 +180,20 @@ if (isset($_POST["send"])) {
       <b> Message : </b> $message
        ";
         // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-        header("Location: success.php");
-
         $mail->send();
-        // echo "alert('form submitted')"
+        $success = true;
+        echo "<script>console.log('submitted')</script>";
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 
+
+    // if($success){
+    //     header("Location: success.php");
+    // }
+
 }
+
+
 
 ?>

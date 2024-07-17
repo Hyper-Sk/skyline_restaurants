@@ -2,18 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Delici - Restaurants HTML Template - Menus List</title>
-    <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <title>Contact Us - Skyline Restaurants</title>
+    <?php require 'links.php' ?>
+
 
 </head>
 
@@ -23,105 +14,13 @@
         <?php $page = 'contact' ?>
 
         <!-- Preloader -->
-        <?php require 'spinner.php' ?>
+        <?php //require 'spinner.php' ?>
         <!-- Preloader End -->
 
         <!-- Main Header-->
         <?php require 'header.php' ?>
         <!--End Main Header -->
 
-
-
-        <!--Menu Backdrop-->
-        <div class="menu-backdrop"></div>
-
-        <!-- Hidden Navigation Bar -->
-        <section class="hidden-bar">
-            <!-- Hidden Bar Wrapper -->
-            <div class="inner-box">
-                <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
-                <div class="logo-box"><a href="index.html" title="Delici - Restaurants HTML Template"><img
-                            src="images/resource/sidebar-logo.png" alt=""
-                            title="Delici - Restaurants HTML Template"></a></div>
-
-                <!-- .Side-menu -->
-                <div class="side-menu">
-                    <ul class="navigation clearfix">
-                        <li class=""><a href="index.html">Home</a>
-                        </li>
-                        <li class="current dropdown"><a href="menu-list.html">Menus</a>
-                            <ul>
-                                <li><a href="menu-list-1.html">Menu List 1</a></li>
-                                <li><a href="menu-list-2.html">Menu List 2</a></li>
-                                <li><a href="menu-list-3.html">Menu List 3</a></li>
-                                <li><a href="menu-list-4.html">Menu List 4</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="our-chef.html">Our chefs</a></li>
-                        <li class="dropdown"><a href="#">Pages</a>
-                            <ul>
-                                <li><a href="#">Dropdown Menu 1</a></li>
-                                <li><a href="#">Dropdown Menu 2</a></li>
-                                <li><a href="#">Dropdown Menu 3</a></li>
-                                <li class="dropdown"><a href="#">Dropdown Menu 4</a>
-                                    <ul>
-                                        <li><a href="#">Dropdown Menu level 2</a></li>
-                                        <li><a href="#">Dropdown Menu level 2</a></li>
-                                        <li><a href="#">Dropdown Menu Level 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Dropdown Lorem 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact-us.html">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- /.Side-menu -->
-
-                <h2>Visit Us</h2>
-                <ul class="info">
-                    <li>Restaurant St, Delicious City, <br>London 9578, UK</li>
-                    <li>Open: 9.30 am - 2.30pm</li>
-                    <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
-                </ul>
-                <div class="separator"><span></span></div>
-                <div class="booking-info">
-                    <div class="bk-title">Booking request</div>
-                    <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
-                </div>
-
-            </div>
-            <!-- / Hidden Bar Wrapper -->
-        </section>
-        <!-- / Hidden Bar -->
-
-        <!--Info Back Drop-->
-        <div class="info-back-drop"></div>
-
-        <!-- Hidden Bar -->
-        <section class="info-bar">
-            <div class="inner-box">
-                <div class="cross-icon"><span class="far fa-close"></span></div>
-                <div class="logo-box"><a href="index.html" title="Delici - Restaurants HTML Template"><img
-                            src="images/resource/sidebar-logo.png" alt=""
-                            title="Delici - Restaurants HTML Template"></a></div>
-                <div class="image-box"><img src="images/resource/sidebar-image.jpg" alt="" title=""></div>
-
-                <h2>Visit Us</h2>
-                <ul class="info">
-                    <li>Restaurant St, Delicious City, <br>London 9578, UK</li>
-                    <li>Open: 9.30 am - 2.30pm</li>
-                    <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
-                </ul>
-                <div class="separator"><span></span></div>
-                <div class="booking-info">
-                    <div class="bk-title">Booking request</div>
-                    <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
-                </div>
-            </div>
-        </section>
-        <!--End Hidden Bar -->
 
         <!-- Inner Banner Section -->
         <section class="inner-banner">
@@ -247,9 +146,6 @@
             </div>
 
         </section>
-
-
-
 
         <!--Main Footer-->
         <?php require 'footer.php' ?>

@@ -2,19 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Delici - Restaurants HTML Template - Menus List</title>
-    <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-
+    <title>Success - Skyline Restaurants</title>
+    <?php require 'links.php' ?>
 </head>
 
 <body>
@@ -53,7 +42,7 @@
                     <div class="subtitle"><span>Thanks</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
                     <h2>Thanks for the Reservation</h2>
-                    <div class="text desc">For any queries class us </div>
+                    <div class="text desc">For any queries call us </div>
                     <div class="text request-info"><a href="#">+91 8008094786</a> </div>
                 </div>
                

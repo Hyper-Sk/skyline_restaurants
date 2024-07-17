@@ -83,16 +83,14 @@
                                 </li> -->
                                 <li class="<?php if ($page == 'menus') {
                                     echo "current";
-                                } ?>"><a
-                                        href="menu-list-1.php">Menus</a></li>
+                                } ?>"><a href="menu-list-1.php">Menus</a></li>
                                 <li class="<?php if ($page == 'about') {
                                     echo "current";
                                 } ?>"><a href="about.php">About
                                         Us</a></li>
                                 <li class="<?php if ($page == 'our_chefs') {
                                     echo "current";
-                                } ?>"><a
-                                        href="our-chef.php">Our chefs</a></li>
+                                } ?>"><a href="our-chef.php">Our chefs</a></li>
                                 <!-- <li class="dropdown"><a href="#">Pages</a>
                                             <ul>
                                                 <li><a href="#">Dropdown Menu 1</a></li>
@@ -110,8 +108,7 @@
                                         </li> -->
                                 <li class="<?php if ($page == 'contact') {
                                     echo "current";
-                                } ?>"><a
-                                        href="contact-us.php">Contact</a></li>
+                                } ?>"><a href="contact-us.php">Contact</a></li>
                             </ul>
                         </nav>
                         <!-- Main Menu End-->
@@ -166,14 +163,28 @@
     <!-- Hidden Bar Wrapper -->
     <div class="inner-box">
         <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
-        <div class="logo-box"><a href="index.php" title=""><img src="images/resource/sidebar-logo.png" alt=""
+        <div class="logo-box"><a href="index.php" title=""><img src="images/logo.png" alt=""
                     title=""></a></div>
 
         <!-- .Side-menu -->
         <div class="side-menu">
             <ul class="navigation clearfix">
-                <li class="current"><a href="index.php">Home</a>
-                </li>
+                <li class="<?php if ($page == 'home') {
+                    echo "current";
+                } ?>"><a href="index.php">Home</a></li>
+                <li class="<?php if ($page == 'menus') {
+                    echo "current";
+                } ?>"><a href="menu-list-1.php">Menus</a></li>
+                <li class="<?php if ($page == 'about') {
+                    echo "current";
+                } ?>"><a href="about.php">About
+                        Us</a></li>
+                <li class="<?php if ($page == 'our_chefs') {
+                    echo "current";
+                } ?>"><a href="our-chef.php">Our chefs</a></li>
+                <li class="<?php if ($page == 'contact') {
+                    echo "current";
+                } ?>"><a href="contact-us.php">Our chefs</a></li>
                 <!-- <li class="dropdown"><a href="menu-list-1.php">Menus</a>
                     <ul>
                         <li><a href="menu-list-1.php">Menu List 1</a></li>
@@ -182,9 +193,9 @@
                         <li><a href="menu-list-4.php">Menu List 4</a></li>
                     </ul>
                 </li> -->
-                <li><a href="menu-list-1.php">Menus</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="our-chef.php">Our Chefs</a></li>
+
+
+
                 <!-- <li class="dropdown"><a href="#">Pages</a>
                     <ul>
                         <li><a href="#">Dropdown Menu 1</a></li>
@@ -200,7 +211,7 @@
                         <li><a href="#">Dropdown Lorem 5</a></li>
                     </ul>
                 </li> -->
-                <li><a href="contact-us.php">Contact</a></li>
+                
             </ul>
         </div>
         <!-- /.Side-menu -->
@@ -229,7 +240,7 @@
 <section class="info-bar">
     <div class="inner-box">
         <div class="cross-icon"><span class="far fa-close"></span></div>
-        <div class="logo-box"><a href="index.php" title=""><img src="images/resource/sidebar-logo.png" alt=""
+        <div class="logo-box"><a href="index.php" title=""><img src="images/logo.png" alt=""
                     title=""></a></div>
         <div class="image-box"><img src="images/resource/sidebar-image.jpg" alt="" title=""></div>
         <h2>Visit Us</h2>
