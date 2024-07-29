@@ -1,0 +1,26 @@
+.video_section {
+    position: relative;
+    height: 100vh;
+}
+
+.video_section .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video_section .content {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+@media screen and (max-width:560px) {
+    .video_section .video {
+        height: 100vh;
+    }
+}

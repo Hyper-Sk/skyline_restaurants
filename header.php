@@ -69,7 +69,7 @@
                                                             </div>
                                                             <div class="menu-block col-lg-3 col-md-6 col-sm-6">
                                                                 <div class="image"><a href="menu-list-4.php"><img
-                                                                            src="images/resource/menu-image-4.jpg"
+                                                                            src="images/resource/s-image-4.jpg"
                                                                             alt=""></a></div>
                                                                 <div class="title"><a href="menu-list-4.php">Menu list
                                                                         4</a></div>
@@ -83,14 +83,17 @@
                                 </li> -->
                                 <li class="<?php if ($page == 'menus') {
                                     echo "current";
-                                } ?>"><a href="menu-list-1.php">Menus</a></li>
+                                } ?>"><a href="menu-list-1.php">Menu</a></li>
+                                <li class="<?php if ($page == 'plane_menu') {
+                                    echo "current";
+                                } ?>"><a href="menu-list-2.php">Plane Menu</a></li>
                                 <li class="<?php if ($page == 'about') {
                                     echo "current";
                                 } ?>"><a href="about.php">About
                                         Us</a></li>
-                                <li class="<?php if ($page == 'our_chefs') {
+                                <li class="<?php if ($page == 'history') {
                                     echo "current";
-                                } ?>"><a href="our-chef.php">Our chefs</a></li>
+                                } ?>"><a href="plane-history.php">Plane History</a></li>
                                 <!-- <li class="dropdown"><a href="#">Pages</a>
                                             <ul>
                                                 <li><a href="#">Dropdown Menu 1</a></li>
@@ -163,8 +166,7 @@
     <!-- Hidden Bar Wrapper -->
     <div class="inner-box">
         <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
-        <div class="logo-box"><a href="index.php" title=""><img src="images/logo.png" alt=""
-                    title=""></a></div>
+        <div class="logo-box"><a href="index.php" title=""><img src="images/logo.png" alt="" title=""></a></div>
 
         <!-- .Side-menu -->
         <div class="side-menu">
@@ -174,17 +176,24 @@
                 } ?>"><a href="index.php">Home</a></li>
                 <li class="<?php if ($page == 'menus') {
                     echo "current";
-                } ?>"><a href="menu-list-1.php">Menus</a></li>
-                <li class="<?php if ($page == 'about') {
+                } ?>"><a href="menu-list-1.php">Menu</a></li>
+                  <li class="<?php if ($page == 'plane_menu') {
+                    echo "current";
+                } ?>"><a href="menu-list-2.php">Plane Menu</a></li>
+               <li class="<?php if ($page == 'about') {
                     echo "current";
                 } ?>"><a href="about.php">About
                         Us</a></li>
-                <li class="<?php if ($page == 'our_chefs') {
+             
+                <li class="<?php if ($page == 'reservation') {
                     echo "current";
-                } ?>"><a href="our-chef.php">Our chefs</a></li>
+                } ?>"><a href="reservation-opentable.php">Book a Table</a></li>
+                <li class="<?php if ($page == 'history') {
+                    echo "current";
+                } ?>"><a href="plane-history.php">Plane History</a></li>
                 <li class="<?php if ($page == 'contact') {
                     echo "current";
-                } ?>"><a href="contact-us.php">Our chefs</a></li>
+                } ?>"><a href="contact-us.php">Contact Us</a></li>
                 <!-- <li class="dropdown"><a href="menu-list-1.php">Menus</a>
                     <ul>
                         <li><a href="menu-list-1.php">Menu List 1</a></li>
@@ -211,14 +220,14 @@
                         <li><a href="#">Dropdown Lorem 5</a></li>
                     </ul>
                 </li> -->
-                
+
             </ul>
         </div>
         <!-- /.Side-menu -->
 
         <h2>Visit Us</h2>
         <ul class="info">
-            <li>Skyline Restaurants, Moinabad, Telangana <br>India</li>
+            <li>Skyline Restaurants, Moinabad, Hyderabad, Telangana</li>
             <li>Open: 7.00 am - 12.00pm</li>
             <li><a href="mailto:skylinerestaurantsltd@gmail.com">skylinerestaurantsltd@gmail.com</a></li>
         </ul>
@@ -240,12 +249,11 @@
 <section class="info-bar">
     <div class="inner-box">
         <div class="cross-icon"><span class="far fa-close"></span></div>
-        <div class="logo-box"><a href="index.php" title=""><img src="images/logo.png" alt=""
-                    title=""></a></div>
+        <div class="logo-box"><a href="index.php" title=""><img src="images/logo.png" alt="" title=""></a></div>
         <div class="image-box"><img src="images/resource/sidebar-image.jpg" alt="" title=""></div>
         <h2>Visit Us</h2>
         <ul class="info">
-            <li>Skyline Restaurants, Moinabad, Telangana <br>India</li>
+            <li>Skyline Restaurants, Moinabad, Hyderabad, Telangana</li>
             <li>Open: 7.00 am - 12.00pm</li>
             <li><a href="mailto:skylinerestaurantsltd@gmail.com">skylinerestaurantsltd@gmail.com</a></li>
         </ul>

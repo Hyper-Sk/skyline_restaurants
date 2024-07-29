@@ -21,7 +21,7 @@
     <div class="page-wrapper">
 
         <!-- Preloader -->
-        <?php require 'spinner.php' ?>
+        <!-- <?php //require 'spinner.php' ?> -->
         <!-- Preloader End -->
 
         <!-- Main Header-->

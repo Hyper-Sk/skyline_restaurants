@@ -27,7 +27,7 @@
                 <div class="inner">
                     <div class="subtitle"><span>Request sent</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h1><span>Successfull</span></h1>
+                    <h1><span>Message Sent Successfully</span></h1>
                 </div>
             </div>
         </section>
@@ -41,9 +41,9 @@
                 <div class="title-box centered">
                     <div class="subtitle"><span>Thanks</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h2>Thanks for the Reservation</h2>
+                    <h2>Thanks for the Query and Reservation</h2>
                     <div class="text desc">For any queries call us </div>
-                    <div class="text request-info"><a href="#">+91 8008094786</a> </div>
+                    <div class="text request-info"><a href="tel:+918008094786">+91 8008094786</a> </div>
                 </div>
                
             </div>

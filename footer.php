@@ -12,7 +12,7 @@
                             </div>
                             <div class="info">
                                 <ul>
-                                    <li>Sky Line Restaurants, Moinabad, Telangana 501504</li>
+                                    <li>Sky Line Restaurants, Moinabad, Hyderabad, Telangana</li>
                                     <li><a
                                             href="mailto:skylinerestaurantsltd@gmail.com">skylinerestaurantsltd@gmail.com</a>
                                     </li>
@@ -47,9 +47,9 @@
                     <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul class="links">
                             <li><a href="index.php">Home</a></li>
-                            <li><a href="menu-list-1.php">Menus</a></li>
+                            <li><a href="menu-list-1.php">Menu</a></li>
                             <li><a href="about.php">About us</a></li>
-                            <li><a href="our-chef.php">Our chefs</a></li>
+                            <li><a href="menu-list-2.php">Plain Menu</a></li>
                             <li><a href="contact-us.php">Contact</a></li>
                         </ul>
                     </div>
@@ -79,3 +79,6 @@
         </div>
     </div>
 </footer>
+<div class="developer" style="padding-inline:1rem; padding-block:10px; text-align:start;">
+    Powered By <a href="#">Developer</a> 
+</div>

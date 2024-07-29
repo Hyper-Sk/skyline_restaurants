@@ -4047,6 +4047,7 @@ body.visible-sidebar {
 .main-footer .info-col .logo {
     position: relative;
     margin-bottom: var(--margin-bottom-40);
+    padding-inline: 2rem;
 }
 
 .main-footer .info-col .info li {

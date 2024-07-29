@@ -17,7 +17,7 @@
 :root {
     --preloader-bg:rgb(255, 255, 255);
     /* #f25630 in decimal RGB */
-    --main-color: rgb(255, 234, 0);
+    --main-color: #4A94FD;
     /* #ffffff in decimal RGB */
     --white-color: rgb(255, 255, 255);
     /* #a7a7a7 in decimal RGB */

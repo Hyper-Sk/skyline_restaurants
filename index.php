@@ -4,16 +4,19 @@
 <head>
     <title>Home - Skyline Restaurants</title>
    <?php require 'links.php' ?>
+   
 </head>
 
 <body>
     <div class="page-wrapper">
 
+       
+
         <!-- active link  -->
         <?php $page = 'home' ?>
 
         <!-- Preloader -->
-        <?php require 'spinner.php' ?>
+        <?php require 'components/spinner.php' ?>
         <!-- Preloader End -->
 
         <!-- Main Header-->
@@ -21,15 +24,19 @@
         <!--End Main Header -->
 
         <!-- Banner Section -->
-        <?php require 'components/banner.php' ?>
+        <!-- <?php //require 'components/banner.php' ?> -->
         <!--End Banner Section -->
+
+        <!-- video section  -->
+        <?php require 'components/video.php'; ?>
+        <!-- video section end -->
 
         <!--We Offer Section-->
         <?php require 'components/we_offer.php' ?>
         <!--End We Offer Section-->
         
         <!--Story Section-->
-        <?php require 'components/story_section.php' ?>
+        <?php require 'components/story-section.php' ?>
         <!--End Story Section-->
         
         <!--Special Dish Section-->
@@ -45,7 +52,7 @@
         <!--End Special Offer Section-->
         
         <!--Reservation Section-->
-        <!-- <?php //require 'reservation-form.php' ?> -->
+        <?php //require 'reservation-form.php' ?>
         <!--End Reservation Section-->
         
         <!--Why Us Section-->

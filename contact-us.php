@@ -65,7 +65,7 @@
                                 <div class="inner-box cp-seprator wow fadeInUp" data-wow-duration="1500ms"
                                     data-wow-delay="300ms">
                                     <h4>Contact Info</h4>
-                                    <div class="text">Moinabad, Telangana 501504<br>Email :
+                                    <div class="text">Sky Line Restaurants, Moinabad, Hyderabad, Telangana<br>Email :
                                         skylinerestaurantltd@gmail.com</div>
                                     <div class="more-link"><a href="tel:+918008094786" tel>Booking : +91 8008094786</a>
                                     </div>
@@ -83,7 +83,6 @@
                     </div>
                 </div>
             </div>
-
             <!--Location form Section-->
             <div class="auto-container">
                 <div class="c-page-form-box">
@@ -96,36 +95,37 @@
                                     contact us today</div>
                             </div>
                             <div class="default-form reservation-form">
-                                <form method="post" action="index.html">
+                                <form method="post" action="send_contact_form.php">
                                     <div class="clearfix">
                                         <div class="form-group">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Your Name"
+                                                <input type="text" name="name" value="" placeholder="Your Name"
                                                     required="">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Your Email"
-                                                    required="">
+                                                <input type="email" name="email" value="" placeholder="Your Email"
+                                                    required>
                                             </div>
                                         </div>
                                         <div class="form-group ">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Phone Number"
-                                                    required="">
+                                            <input type="tel" name="phone" value="" placeholder="Phone Number"
+                                        pattern="[0-9]{10}" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group ">
                                             <div class="field-inner">
-                                                <textarea name="fieldname" placeholder="Special Request"
-                                                    required=""></textarea>
+                                                <textarea name="message" placeholder="Special Request"
+                                                    required></textarea>
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <button type="submit" class="theme-btn btn-style-one clearfix">
+                                            <button type="submit" 
+                                            name="contact_send" class="theme-btn btn-style-one clearfix">
                                                 <span class="btn-wrap">
                                                     <span class="text-one">send your message</span>
                                                     <span class="text-two">send your message</span>

@@ -886,4 +886,7 @@
     .menu-two .dish-block .title .ttl a {
         width: 150px;
     }
+    .main-footer .info-col .logo {
+        padding-inline: 1rem;
+    }
 }

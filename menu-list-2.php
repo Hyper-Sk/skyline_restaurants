@@ -20,8 +20,9 @@
 <body>
     <div class="page-wrapper">
 
+        <?php $page = 'plane_menu' ?>
         <!-- Preloader -->
-        <?php require 'spinner.php' ?>
+        <!-- <?php //require 'spinner.php' ?> -->
         <!-- Preloader End -->
 
         <!-- Main Header-->
@@ -36,7 +37,7 @@
                 <div class="inner">
                     <div class="subtitle"><span>delicious & amazing</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h1><span>Our Menu 2</span></h1>
+                    <h1><span>Plane Menu</span></h1>
                 </div>
             </div>
         </section>

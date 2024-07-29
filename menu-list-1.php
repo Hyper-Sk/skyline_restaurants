@@ -350,28 +350,28 @@
                             <div class="inner">
                                 <div class="title">
                                     <h2>Online Reservation</h2>
-                                    <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out
+                                    <div class="request-info">Booking request <a href="tel:+918008094786">+91 8008094786</a> or fill out
                                         the order form</div>
                                 </div>
                                 <div class="default-form reservation-form">
-                                    <form method="post" action="index.html">
+                                    <form method="post" action="send.php">
                                         <div class="row clearfix">
                                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <div class="field-inner">
-                                                    <input type="text" name="fieldname" value="" placeholder="Your Name"
+                                                    <input type="text" name="name" value="" placeholder="Your Name"
                                                         required>
                                                 </div>
                                             </div>
                                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <div class="field-inner">
-                                                    <input type="text" name="fieldname" value=""
-                                                        placeholder="Phone Number" required>
+                                                    <input type="tel" name="phone" value="" placeholder="Phone Number"
+                                                        pattern="[0-9]{10}" required>
                                                 </div>
                                             </div>
                                             <div class="form-group col-lg-4 col-md-6 col-sm-12">
                                                 <div class="field-inner">
                                                     <span class="alt-icon far fa-user"></span>
-                                                    <select class="l-icon">
+                                                    <select class="l-icon" name="members" required>
                                                         <option>1 Person</option>
                                                         <option>2 Person</option>
                                                         <option>3 Person</option>
@@ -379,6 +379,10 @@
                                                         <option>5 Person</option>
                                                         <option>6 Person</option>
                                                         <option>7 Person</option>
+                                                        <option>8 Person</option>
+                                                        <option>9 Person</option>
+                                                        <option>10 Person</option>
+                                                        <option>More Than 10 Person</option>
                                                     </select>
                                                     <span class="arrow-icon far fa-angle-down"></span>
                                                 </div>
@@ -386,15 +390,15 @@
                                             <div class="form-group col-lg-4 col-md-6 col-sm-12">
                                                 <div class="field-inner">
                                                     <span class="alt-icon far fa-calendar"></span>
-                                                    <input class="l-icon datepicker" type="text" name="fieldname"
-                                                        value="" placeholder="DD-MM-YYYY" required readonly>
+                                                    <input class="l-icon datepicker" type="text" name="date" value=""
+                                                        placeholder="DD-MM-YYYY" required readonly>
                                                     <span class="arrow-icon far fa-angle-down"></span>
                                                 </div>
                                             </div>
                                             <div class="form-group col-lg-4 col-md-12 col-sm-12">
                                                 <div class="field-inner">
                                                     <span class="alt-icon far fa-clock"></span>
-                                                    <select class="l-icon">
+                                                    <select class="l-icon" required name="time">
                                                         <option>08 : 00 am</option>
                                                         <option>09 : 00 am</option>
                                                         <option>10 : 00 am</option>
@@ -410,19 +414,19 @@
                                                         <option>08 : 00 pm</option>
                                                         <option>09 : 00 pm</option>
                                                         <option>10 : 00 pm</option>
+                                                        <option>11 : 00 pm</option>
                                                     </select>
                                                     <span class="arrow-icon far fa-angle-down"></span>
                                                 </div>
                                             </div>
                                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                                 <div class="field-inner">
-                                                    <textarea name="fieldname" placeholder="Message"
-                                                        required></textarea>
+                                                    <textarea name="message" placeholder="Message" required></textarea>
                                                 </div>
                                             </div>
                                             <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                                 <div class="field-inner">
-                                                    <button type="submit" class="theme-btn btn-style-one clearfix">
+                                                    <button type="submit" name="send" class="theme-btn btn-style-one clearfix">
                                                         <span class="btn-wrap">
                                                             <span class="text-one">book a table</span>
                                                             <span class="text-two">book a table</span>
@@ -432,6 +436,7 @@
                                             </div>
                                         </div>
                                     </form>
+                                    <!-- <div class="powered-by">Your Message has been sent </div> -->
                                 </div>
                             </div>
                         </div>
@@ -446,7 +451,7 @@
                                 <div class="data">
                                     <div class="discount-info">
                                         <div class="s-ttl">up to</div>
-                                        <div class="num">45%</div>
+                                        <div class="num">30%</div>
                                         <div class="s-ttl">discount</div>
                                     </div>
                                     <div class="instruction">

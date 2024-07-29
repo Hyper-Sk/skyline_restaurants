@@ -51,12 +51,23 @@
                         form</div>
                 </div>
                 <div class="default-form reservation-form">
-                    <form method="post" action="index.html">
+                    <form method="post" action="send.php">
                         <div class="row clearfix">
-                            <div class="form-group col-lg-4 col-md-6 col-sm-12">
+
+                            <div class="form-group col-lg-6 col-md-12 col-sm-12">
+                                <div class="field-inner">
+                                    <input type="text" name="name" value="" placeholder="Your Name" required="">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-12 col-sm-12">
+                                <div class="field-inner">
+                                    <input type="tel" name="phone" value="" placeholder="Your Phone" required>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-3 col-md-6 col-sm-12">
                                 <div class="field-inner">
                                     <span class="alt-icon far fa-user"></span>
-                                    <select class="l-icon">
+                                    <select class="l-icon" name="members">
                                         <option>1 Person</option>
                                         <option>2 Person</option>
                                         <option>3 Person</option>
@@ -64,50 +75,64 @@
                                         <option>5 Person</option>
                                         <option>6 Person</option>
                                         <option>7 Person</option>
+                                        <option>8 Person</option>
+                                        <option>9 Person</option>
+                                        <option>10 Person</option>
+                                        <option>More than 10 Person</option>
                                     </select>
                                     <span class="arrow-icon far fa-angle-down"></span>
                                 </div>
                             </div>
-                            <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                            <div class="form-group col-lg-3 col-md-6 col-sm-12">
                                 <div class="field-inner">
                                     <span class="alt-icon far fa-calendar"></span>
-                                    <input class="l-icon datepicker" type="text" name="fieldname" value=""
+                                    <input class="l-icon datepicker" type="text" name="date" value=""
                                         placeholder="DD-MM-YYYY" required readonly>
                                     <span class="arrow-icon far fa-angle-down"></span>
                                 </div>
                             </div>
-                            <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                            <div class="form-group col-lg-6 col-md-12 col-sm-12">
                                 <div class="field-inner">
-                                    <span class="alt-icon far fa-clock"></span>
-                                    <select class="l-icon">
-                                        <option>08 : 00 am</option>
-                                        <option>09 : 00 am</option>
-                                        <option>10 : 00 am</option>
-                                        <option>11 : 00 am</option>
-                                        <option>12 : 00 pm</option>
-                                        <option>01 : 00 pm</option>
-                                        <option>02 : 00 pm</option>
-                                        <option>03 : 00 pm</option>
-                                        <option>04 : 00 pm</option>
-                                        <option>05 : 00 pm</option>
-                                        <option>06 : 00 pm</option>
-                                        <option>07 : 00 pm</option>
-                                        <option>08 : 00 pm</option>
-                                        <option>09 : 00 pm</option>
-                                        <option>10 : 00 pm</option>
-                                    </select>
+                                    <div class="field-inner">
+                                        <span class="alt-icon far fa-clock"></span>
+                                        <select class="l-icon" name="time">
+                                            <option>08 : 00 am</option>
+                                            <option>09 : 00 am</option>
+                                            <option>10 : 00 am</option>
+                                            <option>11 : 00 am</option>
+                                            <option>12 : 00 pm</option>
+                                            <option>01 : 00 pm</option>
+                                            <option>02 : 00 pm</option>
+                                            <option>03 : 00 pm</option>
+                                            <option>04 : 00 pm</option>
+                                            <option>05 : 00 pm</option>
+                                            <option>06 : 00 pm</option>
+                                            <option>07 : 00 pm</option>
+                                            <option>08 : 00 pm</option>
+                                            <option>09 : 00 pm</option>
+                                            <option>10 : 00 pm</option>
+                                        </select>
+                                    </div>
                                     <span class="arrow-icon far fa-angle-down"></span>
+                                </div>
+
+
+
+                            </div>
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <div class="field-inner">
+                                    <textarea name="message" placeholder="Instructions and Message" required></textarea>
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="theme-btn btn-style-one clearfix">
+                        <button type="submit" name="send" class="theme-btn btn-style-one clearfix">
                             <span class="btn-wrap">
                                 <span class="text-one">book a table</span>
                                 <span class="text-two">book a table</span>
                             </span>
                         </button>
                     </form>
-                    <div class="powered-by">*Powered by OpenTable</div>
+                    <!-- <div class="powered-by">Your Message has been sent </div> -->
                 </div>
             </div>
 
@@ -139,8 +164,8 @@
                                     </div>
                                     <div class="data">
                                         <ul class="info">
-                                            <li><strong>Contact Us</strong><br>Moinabad, Telangana 501504<br> Call : +91
-                                                8008094786 <br> Email : skylinerestaurantltd@gmail.com </li>
+                                            <li><strong>Contact Us</strong><br> Sky Line Restaurants, Moinabad, Hyderabad, Telangana <br> Call : +91
+                                                8008094786 <br> Email : skylinerestaurantsltd@gmail.com </li>
                                             <div class="separator"><span></span></div>
                                             <li><strong>Lunch Time</strong><br>Monday to Sunday <br>11.00 am - 2.30pm
                                             </li>
@@ -158,10 +183,10 @@
 
 
             <!--location Section-->
-            <div class="location-center">
+            <!-- <div class="location-center">
                 <div class="auto-container">
                     <div class="row clearfix">
-                        <!--Block-->
+                       
                         <div class="location-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
                                 <div class="icon-box"><img src="images/resource/ny.png" alt=""></div>
@@ -172,7 +197,7 @@
                             </div>
                         </div>
 
-                        <!--Block-->
+                        
                         <div class="location-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
                                 <div class="icon-box"><img src="images/resource/dubai.png" alt=""></div>
@@ -183,7 +208,7 @@
                             </div>
                         </div>
 
-                        <!--Block-->
+                       
                         <div class="location-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                                 <div class="icon-box"><img src="images/resource/paris.png" alt=""></div>
@@ -194,7 +219,7 @@
                             </div>
                         </div>
 
-                        <!--Block-->
+                      
                         <div class="location-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="900ms">
                                 <div class="icon-box"><img src="images/resource/toronto.png" alt=""></div>
@@ -207,7 +232,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </section>
 
