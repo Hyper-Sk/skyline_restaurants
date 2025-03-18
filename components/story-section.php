@@ -15,17 +15,17 @@
                             <img src="images/icons/separator.svg" alt="" title="">
                         </div>
                         <h2>
-                            Every Flavor Tells a Story
+                            Skyline Restaurants
                         </h2>
                         <div class="text">
-                            Lorem Ipsum is simply dummy text of the printingand typesetting
-                            industry lorem Ipsum has been the industrys standard dummy text ever since the when
-                            an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book It has survived not only five centuries, but also the leap into.
+                            Our story begins with a deep-rooted love for the rich and diverse flavors of Hyderabad. Our
+                            mission is to share the delicious flavors of Hyderabadi food, prepared with authentic spices
+                            and herbs. Each dish is a masterpiece, crafted with precision and care—from mouth-watering
+                            kebabs to aromatic biryanis.
                         </div>
                     </div>
                     <div class="booking-info">
-                        <div class="bk-title">Book Through Call</div>
+                        <div class="bk-title">Call to Book</div>
                         <div class="bk-no">
                             <a href="tel:+918008094786">+91 8008094786</a>
                         </div>
@@ -44,15 +44,15 @@
             <!--Col-->
             <div class="image-col col-xl-7 col-lg-7 col-md-12 col-sm-12">
                 <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-                    <div class="round-stamp">
+                    <!-- <div class="round-stamp">
                         <img src="images/resource/badge-1.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="images parallax-scene-1">
                         <div class="image" data-depth="0.15">
                             <img src="images/resource/image-1.jpg" alt="">
                         </div>
                         <div class="image" data-depth="0.30">
-                            <img src="images/resource/image-2.jpg" alt="">
+                            <img src="images/chef_lady_square.jpeg" alt="">
                         </div>
                     </div>
                 </div>

@@ -208,6 +208,11 @@
 }
 
 @media only screen and (max-width: 991px) {
+
+    .para{
+        padding-inline: 20px;
+    }
+    
     .header-top .top-left {
         display: none;
     }

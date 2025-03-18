@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Menus - Skyline Restaurants</title>
+    <title>Aircraft - Skyline Restaurants</title>
     <?php require 'links.php' ?>
 
 </head>
@@ -13,7 +13,8 @@
         <?php $page = 'menus' ?>
 
         <!-- Preloader -->
-        <?php //require 'spinner.php' ?>
+        <?php //require 'spinner.php' 
+        ?>
         <!-- Preloader End -->
 
         <!-- Main Header-->
@@ -27,26 +28,50 @@
                 <div class="inner">
                     <div class="subtitle"><span>delicious & amazing</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h1><span>Our Menu</span></h1>
+                    <h1><span>Aircraft Menu</span></h1>
                 </div>
             </div>
         </section>
         <!--End Banner Section -->
 
-        <!--Menu Section-->
+
+        <!-- About air craft menu  -->
+        <section class="about-section">
+            <div class="left-bg"><img src="images/background/bg-10.png" alt="" title=""></div>
+            <div class="right-bg"><img src="images/background/bg-11.png" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle">
+                        <span>Aircraft Menu</span>
+                    </div>
+                    <div class="pattern-image">
+                        <img src="images/icons/separator.svg" alt="" title="">
+                    </div>
+                    <h3>Aircraft Menu Has been Speacially Designed with unique collection of<span class="theme_color"> 7 course</span> meal with different types mojitos juices & soft drinks
+
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--Welcom Drink Section-->
         <section class="menu-one">
             <div class="right-bg"><img src="images/background/bg-16.png" alt="" title=""></div>
             <div class="auto-container">
                 <div class="title-box centered">
                     <div class="subtitle"><span>STARTER MENU</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h2>Appetizers</h2>
+                    <h2>Welcome Drinks</h2>
                 </div>
 
                 <div class="row clearfix">
                     <div class="image-col col-lg-7 col-md-12 col-sm-12">
                         <div class="inner">
-                            <div class="image"><img src="images/resource/menus-1.jpg" alt=""></div>
+                            <div class="image"><img src="images/dishes/mocktail_1.jpg" alt="dish"></div>
                         </div>
                     </div>
                     <div class="menu-col col-lg-5 col-md-12 col-sm-12">
@@ -56,12 +81,15 @@
                                 <div class="inner-box">
                                     <div class="title clearfix">
                                         <div class="ttl clearfix">
-                                            <h5><a href="#">Greek Salad</a></h5>
+                                            <h5>Mojitos</h5>
                                         </div>
-                                        <div class="price"><span>$25.50</span></div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
                                     </div>
-                                    <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber
-                                            onion, olives, and feta cheese.</a></div>
+                                    <div class="text desc">
+                                        Refreshing cocktail mint, lime, and sugar; perfect balance of sweet, tangy, and cool.
+                                    </div>
                                 </div>
                             </div>
                             <!--Block-->
@@ -69,12 +97,54 @@
                                 <div class="inner-box">
                                     <div class="title clearfix">
                                         <div class="ttl clearfix">
-                                            <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5>
+                                            <h5>Fresh Fruit Juice </h5>
+                                            <!-- <h5><a href="#">Sheikh kebab  <span class="s-info">SEASONAL</span></a></h5> -->
                                         </div>
-                                        <div class="price"><span>$40.00</span></div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
                                     </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices</a></div>
+                                    <div class="text desc"> Natural, fresh fruit drink bursting with vibrant flavors; a sweet, refreshing way to hydrate.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--Platter Drink Section-->
+        <section class="menu-one alternate">
+            <div class="left-bg"><img src="images/background/bg-17.png" alt="" title=""></div>
+            <div class="right-bg-2"><img src="images/background/bg-18.png" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>Delicious</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Starter Platter</h2>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image"><img src="images/dishes/kebab_1.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Shami Shikumpur</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Flavorful Indian kebabs with spiced minced meat and lentils; crispy outside, tender and savory inside.</div>
                                 </div>
                             </div>
                             <!--Block-->
@@ -82,12 +152,14 @@
                                 <div class="inner-box">
                                     <div class="title clearfix">
                                         <div class="ttl clearfix">
-                                            <h5><a href="#">Butternut Pumpkin</a></h5>
+                                            <h5>Sheekh kebab </h5>
+                                            <!-- <h5><a href="#">Sheikh kebab  <span class="s-info">SEASONAL</span></a></h5> -->
                                         </div>
-                                        <div class="price"><span>$10.00</span></div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
                                     </div>
-                                    <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply
-                                            dummy text of the priand.</a></div>
+                                    <div class="text desc">Juicy, spiced minced meat skewers grilled to perfection; flavorful, tender, and perfect for sharing.</div>
                                 </div>
                             </div>
                             <!--Block-->
@@ -95,12 +167,61 @@
                                 <div class="inner-box">
                                     <div class="title clearfix">
                                         <div class="ttl clearfix">
-                                            <h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5>
+                                            <h5>Chicken tangdi</h5>
                                         </div>
-                                        <div class="price"><span>$39.00</span></div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
                                     </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices.</a></div>
+                                    <div class="text desc">Succulent, marinated chicken drumsticks grilled to perfection; spicy, flavorful, and irresistibly tender.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Katlis</h5>
+                                            <!-- <h5><a href="#">Katlis<span class="s-info">NEW</span></a></h5> -->
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">
+                                        Marinated with different herbs, and spices. Authentic dish of Hyderabad nawab. Serve with onion lemon lettuce.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Lukhmi kebab</h5>
+                                            <!-- <h5><a href="#">Katlis<span class="s-info">NEW</span></a></h5> -->
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc"> Flaky pastry stuffed with spiced minced meat; savory, crispy, and bursting with rich flavors.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Lukhmi and Fish with Kachumbar salad</h5>
+                                            <!-- <h5><a href="#">Katlis<span class="s-info">NEW</span></a></h5> -->
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Grilled fish paired with fresh, tangy kachumbar salad; light, flavorful, and refreshing.</div>
                                 </div>
                             </div>
                         </div>
@@ -108,6 +229,334 @@
                 </div>
             </div>
         </section>
+
+        <!--Soups Section-->
+        <section class="menu-one">
+            <div class="right-bg"><img src="images/background/bg-16.png" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>Delicious</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Soup Menu</h2>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image"><img src="images/dishes/soup_1.jpg" alt="dish"></div>
+                        </div>
+                    </div>
+                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Lamb Marg</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Tender lamb slow-cooked in a rich, spiced gravy; aromatic, flavorful, and melt-in-your-mouth delicious.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Hot and Sour</h5>
+                                            <!-- <h5><a href="#">Sheikh kebab  <span class="s-info">SEASONAL</span></a></h5> -->
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc"> Tangy, spicy soup with a zesty kick; a bold blend of flavors that's both warming and refreshing.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Salad Menu Section-->
+        <section class="menu-one alternate">
+            <div class="left-bg"><img src="images/background/bg-17.png" alt="" title=""></div>
+            <div class="right-bg-2"><img src="images/background/bg-18.png" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>Delicious</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Salads</h2>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image"><img src="images/dishes/salad_1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Greek Salad</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Fresh, crisp salad with cucumbers, tomatoes, olives, and feta; vibrant and light with zesty dressing.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Prawn Cocktail</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Chilled prawns in a tangy, creamy cocktail sauce; elegant, flavorful, and perfectly refreshing.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Curries Section-->
+        <section class="menu-one">
+            <div class="right-bg"><img src="images/background/bg-16.png" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>Delicious</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Selection of 4 Curries with bread basket</h2>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image"><img src="images/dishes/curry_1.jpg" alt="dish"></div>
+                        </div>
+                    </div>
+                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Chicken Khorma</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Tender chicken simmered in a creamy, spiced yogurt sauce; rich, aromatic, and comforting.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Taj Kebab</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Succulent marinated kebabs grilled to perfection; tender, juicy, and infused with aromatic spices.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Dum Ka Keema</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Spiced minced meat slow-cooked with aromatic herbs; flavorful, tender, and richly seasoned.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Dal Makhni</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Creamy, slow-cooked black lentils in a spiced tomato sauce, dal, rich, hearty, and deeply flavorful.</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Rice Menu Section-->
+        <section class="menu-one alternate">
+            <div class="left-bg"><img src="images/background/bg-17.png" alt="" title=""></div>
+            <div class="right-bg-2"><img src="images/background/bg-18.png" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>Delicious</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Selection of Rice Dishes</h2>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image"><img src="images/dishes/rice_1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Lamb Biryani</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Fragrant rice layered with tender lamb and spices; a savory, aromatic, and rich culinary delight.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Chicken Mandi</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Spiced chicken and rice cooked together; aromatic, tender, and bursting with Middle Eastern flavors.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Zeera Rice</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Fragrant rice cooked with cumin seeds; subtly spiced, aromatic, and a perfect side dish.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Dessets Section-->
+        <section class="menu-one">
+            <div class="right-bg"><img src="images/background/bg-16.png" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>Delicious</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Selection of Desserts</h2>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image"><img src="images/dishes/dessert_1.jpg" alt="dish"></div>
+                        </div>
+                    </div>
+                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Appricort Delight</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Sweet apricot dessert with a creamy, smooth texture; fruity, rich, and indulgently satisfying.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Khunafa</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Sweet, flaky pastry layered with creamy cheese or nuts; aromatic, rich, and delightfully crispy.</div>
+                                </div>
+                            </div>
+                            <!--Block-->
+                            <div class="dish-block">
+                                <div class="inner-box">
+                                    <div class="title clearfix">
+                                        <div class="ttl clearfix">
+                                            <h5>Chocolate Mousse served with ice cream</h5>
+                                        </div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text desc">Decadent chocolate mousse topped with creamy ice cream; smooth, rich, and irresistibly indulgent.</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         <!--Menu Section-->
         <section class="menu-one alternate">
@@ -117,13 +566,13 @@
                 <div class="title-box centered">
                     <div class="subtitle"><span>Delicious</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h2>Main Dishes</h2>
+                    <h2>Breads</h2>
                 </div>
 
                 <div class="row clearfix">
                     <div class="image-col col-lg-7 col-md-12 col-sm-12">
                         <div class="inner">
-                            <div class="image"><img src="images/resource/menus-2.jpg" alt=""></div>
+                            <div class="image"><img src="images/dishes/bread_1.jpg" alt=""></div>
                         </div>
                     </div>
                     <div class="menu-col col-lg-5 col-md-12 col-sm-12">
@@ -133,12 +582,13 @@
                                 <div class="inner-box">
                                     <div class="title clearfix">
                                         <div class="ttl clearfix">
-                                            <h5><a href="#">Greek Salad</a></h5>
+                                            <h5>Rumali Roti</h5>
                                         </div>
-                                        <div class="price"><span>$25.50</span></div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
                                     </div>
-                                    <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber
-                                            onion, olives, and feta cheese.</a></div>
+                                    <div class="text desc">Thin, soft flatbread with a delicate, paper-like texture; lightly crisped and perfect for scooping.</div>
                                 </div>
                             </div>
                             <!--Block-->
@@ -146,193 +596,16 @@
                                 <div class="inner-box">
                                     <div class="title clearfix">
                                         <div class="ttl clearfix">
-                                            <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5>
+                                            <h5>Butter Naan</h5>
                                         </div>
-                                        <div class="price"><span>$40.00</span></div>
+                                        <div class="price">
+                                            <!-- <span>Rs 00</span> -->
+                                        </div>
                                     </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices</a></div>
+                                    <div class="text desc">Soft, fluffy naan brushed with rich butter; warm, tender, and ideal for mopping up curries.</div>
                                 </div>
                             </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Butternut Pumpkin</a></h5>
-                                        </div>
-                                        <div class="price"><span>$10.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply
-                                            dummy text of the priand.</a></div>
-                                </div>
-                            </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5>
-                                        </div>
-                                        <div class="price"><span>$39.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices.</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!--Menu Section-->
-        <section class="menu-one">
-            <div class="left-bg"><img src="images/background/bg-22.png" alt="" title=""></div>
-            <div class="auto-container">
-                <div class="title-box centered">
-                    <div class="subtitle"><span>sweet & sweet</span></div>
-                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h2>Desserts</h2>
-                </div>
-
-                <div class="row clearfix">
-                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
-                        <div class="inner">
-                            <div class="image"><img src="images/resource/menus-desert.jpg" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
-                        <div class="inner">
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Greek Salad</a></h5>
-                                        </div>
-                                        <div class="price"><span>$25.50</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber
-                                            onion, olives, and feta cheese.</a></div>
-                                </div>
-                            </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5>
-                                        </div>
-                                        <div class="price"><span>$40.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices</a></div>
-                                </div>
-                            </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Butternut Pumpkin</a></h5>
-                                        </div>
-                                        <div class="price"><span>$10.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply
-                                            dummy text of the priand.</a></div>
-                                </div>
-                            </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5>
-                                        </div>
-                                        <div class="price"><span>$39.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices.</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Menu Section-->
-        <section class="menu-one alternate">
-
-            <div class="right-bg-2"><img src="images/background/bg-23.png" alt="" title=""></div>
-            <div class="auto-container">
-                <div class="title-box centered">
-                    <div class="subtitle"><span>hot & cold</span></div>
-                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h2>Drinks Menu</h2>
-                </div>
-
-                <div class="row clearfix">
-                    <div class="image-col col-lg-7 col-md-12 col-sm-12">
-                        <div class="inner">
-                            <div class="image"><img src="images/resource/menus-drinks.jpg" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="menu-col col-lg-5 col-md-12 col-sm-12">
-                        <div class="inner">
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Greek Salad</a></h5>
-                                        </div>
-                                        <div class="price"><span>$25.50</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber
-                                            onion, olives, and feta cheese.</a></div>
-                                </div>
-                            </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5>
-                                        </div>
-                                        <div class="price"><span>$40.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices</a></div>
-                                </div>
-                            </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Butternut Pumpkin</a></h5>
-                                        </div>
-                                        <div class="price"><span>$10.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply
-                                            dummy text of the priand.</a></div>
-                                </div>
-                            </div>
-                            <!--Block-->
-                            <div class="dish-block">
-                                <div class="inner-box">
-                                    <div class="title clearfix">
-                                        <div class="ttl clearfix">
-                                            <h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5>
-                                        </div>
-                                        <div class="price"><span>$39.00</span></div>
-                                    </div>
-                                    <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce,
-                                            seasonings and spices.</a></div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -340,140 +613,9 @@
         </section>
 
 
-        <!--Reservation Section-->
-        <section class="reserve-section style-two">
-            <div class="image-layer" style="background-image: url(images/background/image-10.jpg);"></div>
-            <div class="auto-container">
-                <div class="outer-box">
-                    <div class="row clearfix">
-                        <div class="reserv-col col-lg-8 col-md-12 col-sm-12">
-                            <div class="inner">
-                                <div class="title">
-                                    <h2>Online Reservation</h2>
-                                    <div class="request-info">Booking request <a href="tel:+918008094786">+91 8008094786</a> or fill out
-                                        the order form</div>
-                                </div>
-                                <div class="default-form reservation-form">
-                                    <form method="post" action="send.php">
-                                        <div class="row clearfix">
-                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <input type="text" name="name" value="" placeholder="Your Name"
-                                                        required>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <input type="tel" name="phone" value="" placeholder="Phone Number"
-                                                        pattern="[0-9]{10}" required>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-4 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <span class="alt-icon far fa-user"></span>
-                                                    <select class="l-icon" name="members" required>
-                                                        <option>1 Person</option>
-                                                        <option>2 Person</option>
-                                                        <option>3 Person</option>
-                                                        <option>4 Person</option>
-                                                        <option>5 Person</option>
-                                                        <option>6 Person</option>
-                                                        <option>7 Person</option>
-                                                        <option>8 Person</option>
-                                                        <option>9 Person</option>
-                                                        <option>10 Person</option>
-                                                        <option>More Than 10 Person</option>
-                                                    </select>
-                                                    <span class="arrow-icon far fa-angle-down"></span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-4 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <span class="alt-icon far fa-calendar"></span>
-                                                    <input class="l-icon datepicker" type="text" name="date" value=""
-                                                        placeholder="DD-MM-YYYY" required readonly>
-                                                    <span class="arrow-icon far fa-angle-down"></span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-4 col-md-12 col-sm-12">
-                                                <div class="field-inner">
-                                                    <span class="alt-icon far fa-clock"></span>
-                                                    <select class="l-icon" required name="time">
-                                                        <option>08 : 00 am</option>
-                                                        <option>09 : 00 am</option>
-                                                        <option>10 : 00 am</option>
-                                                        <option>11 : 00 am</option>
-                                                        <option>12 : 00 pm</option>
-                                                        <option>01 : 00 pm</option>
-                                                        <option>02 : 00 pm</option>
-                                                        <option>03 : 00 pm</option>
-                                                        <option>04 : 00 pm</option>
-                                                        <option>05 : 00 pm</option>
-                                                        <option>06 : 00 pm</option>
-                                                        <option>07 : 00 pm</option>
-                                                        <option>08 : 00 pm</option>
-                                                        <option>09 : 00 pm</option>
-                                                        <option>10 : 00 pm</option>
-                                                        <option>11 : 00 pm</option>
-                                                    </select>
-                                                    <span class="arrow-icon far fa-angle-down"></span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                <div class="field-inner">
-                                                    <textarea name="message" placeholder="Message" required></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                <div class="field-inner">
-                                                    <button type="submit" name="send" class="theme-btn btn-style-one clearfix">
-                                                        <span class="btn-wrap">
-                                                            <span class="text-one">book a table</span>
-                                                            <span class="text-two">book a table</span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <!-- <div class="powered-by">Your Message has been sent </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-col col-lg-4 col-md-12 col-sm-12">
-                            <div class="inner">
-                                <div class="img-layer" style="background-image: url(images/background/image-11.jpg);">
-                                </div>
-                                <div class="title">
-                                    <div class="subtitle">hot deal</div>
-                                    <h5>Lunch & Dinner Specials</h5>
-                                </div>
-                                <div class="data">
-                                    <div class="discount-info">
-                                        <div class="s-ttl">up to</div>
-                                        <div class="num">30%</div>
-                                        <div class="s-ttl">discount</div>
-                                    </div>
-                                    <div class="instruction">
-                                        • Not valid for online order <br> • Non-refundable <br> • Offer end on 25 Jan
-                                        <br>
-                                    </div>
-                                    <div class="link-box">
-                                        <a href="reservation-opentable.html" class="theme-btn btn-style-one clearfix">
-                                            <span class="btn-wrap">
-                                                <span class="text-one">book now</span>
-                                                <span class="text-two">book now</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </section>
+
+        
 
         <!--Main Footer-->
         <?php require 'footer.php'; ?>

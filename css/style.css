@@ -6956,7 +6956,7 @@ body.visible-sidebar {
 .chef-section .content-col .inner {
     position: relative;
     display: block;
-    padding-top: var(--padding-top-150);
+    /* padding-top: var(--padding-top-150); */
     padding-left: var(--padding-left-20);
     padding-right: var(--padding-right-20);
 }

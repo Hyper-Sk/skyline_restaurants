@@ -44,7 +44,7 @@
         <!--End Special Dish Section-->
 
         <!--Menu Section-->
-        <?php require 'components/menu.php' ?>
+        <!-- <?php //require 'components/menu.php' ?> -->
         <!--End Menu Section-->
         
         <!--Special Offer Section-->
@@ -68,7 +68,7 @@
         <!--End Team Section-->
 
         <!--Intro Video Section-->
-        <?php require 'components/intro_video.php' ?>
+        <!-- <?php //require 'components/intro_video.php' ?> -->
         <!--End Intro Video Section-->
 
         <!--Recnt Updates Section-->

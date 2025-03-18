@@ -56,7 +56,7 @@
                             <div class="contactinfo-block col-lg-4 col-md-4 col-sm-12">
                                 <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
                                     <h4>Lunch Time</h4>
-                                    <div class="text">Monday to Sunday <br> 11.00 am - 2.30pm</div>
+                                    <div class="text">Monday to Sunday <br> 12:00 PM - 12:00 AM</div>
                                 </div>
                             </div>
 
@@ -65,7 +65,7 @@
                                 <div class="inner-box cp-seprator wow fadeInUp" data-wow-duration="1500ms"
                                     data-wow-delay="300ms">
                                     <h4>Contact Info</h4>
-                                    <div class="text">Sky Line Restaurants, Moinabad, Hyderabad, Telangana<br>Email :
+                                    <div class="text">Skyline Restaurants, Moinabad, Hyderabad.<br>Email :
                                         skylinerestaurantltd@gmail.com</div>
                                     <div class="more-link"><a href="tel:+918008094786" tel>Booking : +91 8008094786</a>
                                     </div>
@@ -76,7 +76,7 @@
                             <div class="contactinfo-block col-lg-4 col-md-4 col-sm-12">
                                 <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                                     <h4>Dinner Time</h4>
-                                    <div class="text">Monday to Sunday<br>5.30 pm - 12.00 pm</div>
+                                    <div class="text">Monday to Sunday<br>12:00 PM - 12:00 AM</div>
                                 </div>
                             </div>
                         </div>

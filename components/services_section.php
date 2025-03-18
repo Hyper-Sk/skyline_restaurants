@@ -1,5 +1,5 @@
 <section class="services-section">
-            <div class="left-bg"><img src="images/background/bg-14.png" alt="" title=""></div>
+            <!-- <div class="left-bg"><img src="images/background/bg-14.png" alt="" title=""></div> -->
             <div class="right-bg"><img src="images/background/bg-15.png" alt="" title=""></div>
             <div class="auto-container">
                 <div class="title-box centered">

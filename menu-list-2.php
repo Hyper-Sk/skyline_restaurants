@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Delici - Restaurants HTML Template - Menus List</title>
+    <title>Menu - Skyline Restaurants</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -22,7 +22,8 @@
 
         <?php $page = 'plane_menu' ?>
         <!-- Preloader -->
-        <!-- <?php //require 'spinner.php' ?> -->
+        <!-- <?php //require 'spinner.php' 
+        ?> -->
         <!-- Preloader End -->
 
         <!-- Main Header-->
@@ -30,18 +31,16 @@
         <!--End Main Header -->
 
         <!-- Inner Banner Section -->
-
         <section class="inner-banner">
             <div class="image-layer" style="background-image: url(images/background/banner-image-2.jpg);"></div>
             <div class="auto-container">
                 <div class="inner">
                     <div class="subtitle"><span>delicious & amazing</span></div>
                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                    <h1><span>Plane Menu</span></h1>
+                    <h1><span>Our Menu</span></h1>
                 </div>
             </div>
         </section>
-
         <!--End Banner Section -->
 
         <!--Special Offer Section-->
@@ -58,92 +57,111 @@
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-11.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/green_chiken.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Greek Salad</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...
+                            <h4><a href="menu-list.html">Hari bhari chicken </a></h4>
+                            <div class="text desc">Marinated with authentic herbs slowly cooked which makes it masale
+                                darr dish of its kind.
                             </div>
-                            <div class="price">$39.00</div>
+                            <!-- <div class="price">$39.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-12.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/mutton_handi.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Tokusen Wagyu</a></h4>
-                            <div class="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives...</div>
-                            <div class="price">$45.00</div>
+                            <h4><a href="menu-list.html">Mutton handi</a></h4>
+                            <div class="text desc">
+                                Spices & whole garlic throughly mixed together slow on coal for four hours finished off
+                                with fresh herbs before serving.
+                            </div>
+                            <!-- <div class="price">$45.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-13.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/dal_makhni.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Butternut Pumpkin</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...
+                            <h4><a href="menu-list.html">Dal makhni </a></h4>
+                            <div class="text desc">
+                                It’s rich, creamy, delicious with a subtle smokiness and that pairs well with jeera
+                                rice. makhani is slow-simmered to get the best flavors.
                             </div>
-                            <div class="price">$15.00</div>
+                            <!-- <div class="price">$15.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-14.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/maharani_fish.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Opu Fish</a></h4>
-                            <div class="text desc">Vegetables, cheeses, ground meats, tomato sauce, seasonings...</div>
-                            <div class="price">$12.00</div>
+                            <h4><a href="menu-list.html">Maharani fish </a></h4>
+                            <div class="text desc">
+                                Fish marinated with Tomato, onion, ginger garlic paste and mixed with oil, Til,
+                                cashewnut, green chilies , curd, salt which will give a taste of mughlai maharani fish
+                            </div>
+                            <!-- <div class="price">$12.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-15.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/marakh_mutton.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Greek Salad</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...
+                            <h4><a href="menu-list.html">Maragh mutton </a></h4>
+                            <div class="text desc">
+                                Authentic nawabi Hyderabadi dish broth with which is prepared by special chefs direction
+                                fatty meat on mutton bone cooked with fresh herbs n added dry fruits
                             </div>
-                            <div class="price">$39.00</div>
+                            <!-- <div class="price">$39.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-16.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/prawn_1.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Tokusen Wagyu</a></h4>
-                            <div class="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives...</div>
-                            <div class="price">$45.00</div>
+                            <h4><a href="menu-list.html">Prawn cocktail </a></h4>
+                            <div class="text desc">
+                                Authentic UK dish prepared by steaming prawns and adding them to a bed of fresh salad
+                                home made sause mixed and drizzled to stunning taste
+                            </div>
+                            <!-- <div class="price">$45.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-17.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/buffalo_wings.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Butternut Pumpkin</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...
-                            </div>
-                            <div class="price">$15.00</div>
+                            <h4><a href="menu-list.html">Skyline Chicken wings</a></h4>
+                            <div class="text desc">
+                                Indroducing first time in HYD. One of its special skyline Chicken wings marinated in
+                                soft spices coated with batter than deep fried n drizzled with special buffalo sauce to
+                                add a kick to the tongue </div>
+                            <!-- <div class="price">$15.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-18.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/shahi_paneer.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Opu Fish</a></h4>
-                            <div class="text desc">Vegetables, cheeses, ground meats, tomato sauce, seasonings...</div>
-                            <div class="price">$12.00</div>
+                            <h4><a href="menu-list.html">Shahee paneer</a></h4>
+                            <div class="text desc">
+                                Shahee paneer is a creamy, luxurious dish with paneer cubes simmered in a rich, spiced
+                                cashew and tomato gravy.
+                            </div>
+                            <!-- <div class="price">$12.00</div> -->
                         </div>
                     </div>
 
@@ -159,9 +177,9 @@
                         <!--Col-->
                         <div class="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                             <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                <div class="image-layer" style="background-image: url(images/background/image-8.jpg);">
+                                <div class="image-layer" style="background-image: url(images/dishes/prawn_1.jpg);">
                                 </div>
-                                <div class="image"><img src="images/background/image-8.jpg" alt=""></div>
+                                <div class="image"><img src="images/dishes/prawn_1.jpg" alt=""></div>
                             </div>
                         </div>
                         <!--Col-->
@@ -173,12 +191,15 @@
                                     <div class="subtitle"><span>chef selection</span></div>
                                     <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title="">
                                     </div>
-                                    <h3>Lobster Tortellini</h3>
-                                    <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting
-                                        industry lorem Ipsum has been the industrys standard dummy text ever since.
+                                    <h3>Prawn cocktail</h3>
+                                    <div class="text">A traditional prawn cocktail features a bed of crisp gem lettuce
+                                        topped with succulent king prawns, generously coated in a flavorful cocktail
+                                        sauce made with mayonnaise, ketchup, and a hint of Tabasco. This dish is a
+                                        delightful appetizer, perfect for the festive season or any celebration
+                                        year-round.
                                     </div>
                                 </div>
-                                <div class="price"><span class="old">$40.00</span> <span class="new">$20.00</span></div>
+                                <!-- <div class="price"><span class="old">$40.00</span> <span class="new">$20.00</span></div> -->
                             </div>
                         </div>
 
@@ -191,228 +212,72 @@
         <section class="special-offer-two">
             <div class="right-bg"><img src="images/background/bg-24.png" alt="" title=""></div>
             <div class="auto-container">
+                <div class="title-box centered">
+                    <div class="subtitle"><span>special offer</span></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <h2>Rice Menu</h2>
+                </div>
                 <div class="row clearfix">
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-11.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/mutton_biryani.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Greek Salad</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...
+                            <h4><a href="menu-list.html">Lamb Biryani</a></h4>
+                            <div class="text desc">
+                                Lamb biryani combines tender, spiced lamb with aromatic basmati rice, creating a
+                                flavorful, fragrant feast.
                             </div>
-                            <div class="price">$39.00</div>
+                            <!-- <div class="price">$39.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-12.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/chiken_mandi.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Tokusen Wagyu</a></h4>
-                            <div class="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives...</div>
-                            <div class="price">$45.00</div>
+                            <h4><a href="menu-list.html">Chicken Mandi</a></h4>
+                            <div class="text desc">
+                                Chicken mandi is a savory dish with spiced, tender chicken and fragrant rice, infused
+                                with aromatic flavors.
+                            </div>
+                            <!-- <div class="price">$45.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-13.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/zeera_rice.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Butternut Pumpkin</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...
+                            <h4><a href="menu-list.html">Zeera Rice</a></h4>
+                            <div class="text desc">
+                                Zeera rice features fragrant cumin seeds, perfectly seasoned with aromatic spices,
+                                enhancing every fluffy grain.
+
+
+
                             </div>
-                            <div class="price">$15.00</div>
+                            <!-- <div class="price">$15.00</div> -->
                         </div>
                     </div>
 
                     <!--Item-->
                     <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-14.jpg" alt=""></a>
+                            <div class="image"><a href="#"><img src="images/dishes/steamed_rice.jpg" alt=""></a>
                             </div>
-                            <h4><a href="menu-list.html">Opu Fish</a></h4>
-                            <div class="text desc">Vegetables, cheeses, ground meats, tomato sauce, seasonings...</div>
-                            <div class="price">$12.00</div>
+                            <h4><a href="menu-list.html">Steamed Rice</a></h4>
+                            <div class="text desc">
+                                Steamed rice is simple yet essential, offering fluffy, white grains that complement any
+                                dish perfectly.
+                            </div>
+                            <!-- <div class="price">$12.00</div> -->
                         </div>
                     </div>
 
-                    <!--Item-->
-                    <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-15.jpg" alt=""></a>
-                            </div>
-                            <h4><a href="menu-list.html">Greek Salad</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...
-                            </div>
-                            <div class="price">$39.00</div>
-                        </div>
-                    </div>
 
-                    <!--Item-->
-                    <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-16.jpg" alt=""></a>
-                            </div>
-                            <h4><a href="menu-list.html">Tokusen Wagyu</a></h4>
-                            <div class="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives...</div>
-                            <div class="price">$45.00</div>
-                        </div>
-                    </div>
-
-                    <!--Item-->
-                    <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-17.jpg" alt=""></a>
-                            </div>
-                            <h4><a href="menu-list.html">Butternut Pumpkin</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...
-                            </div>
-                            <div class="price">$15.00</div>
-                        </div>
-                    </div>
-
-                    <!--Item-->
-                    <div class="offer-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-18.jpg" alt=""></a>
-                            </div>
-                            <h4><a href="menu-list.html">Opu Fish</a></h4>
-                            <div class="text desc">Vegetables, cheeses, ground meats, tomato sauce, seasonings...</div>
-                            <div class="price">$12.00</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!--Reservation Section-->
-        <section class="reserve-section style-two">
-            <div class="image-layer" style="background-image: url(images/background/image-10.jpg);"></div>
-            <div class="auto-container">
-                <div class="outer-box">
-                    <div class="row clearfix">
-                        <div class="reserv-col col-lg-8 col-md-12 col-sm-12">
-                            <div class="inner">
-                                <div class="title">
-                                    <h2>Online Reservation</h2>
-                                    <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out
-                                        the order form</div>
-                                </div>
-                                <div class="default-form reservation-form">
-                                    <form method="post" action="index.html">
-                                        <div class="row clearfix">
-                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <input type="text" name="fieldname" value="" placeholder="Your Name"
-                                                        required>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <input type="text" name="fieldname" value=""
-                                                        placeholder="Phone Number" required>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-4 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <span class="alt-icon far fa-user"></span>
-                                                    <select class="l-icon">
-                                                        <option>1 Person</option>
-                                                        <option>2 Person</option>
-                                                        <option>3 Person</option>
-                                                        <option>4 Person</option>
-                                                        <option>5 Person</option>
-                                                        <option>6 Person</option>
-                                                        <option>7 Person</option>
-                                                    </select>
-                                                    <span class="arrow-icon far fa-angle-down"></span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-4 col-md-6 col-sm-12">
-                                                <div class="field-inner">
-                                                    <span class="alt-icon far fa-calendar"></span>
-                                                    <input class="l-icon datepicker" type="text" name="fieldname"
-                                                        value="" placeholder="DD-MM-YYYY" required readonly>
-                                                    <span class="arrow-icon far fa-angle-down"></span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-4 col-md-12 col-sm-12">
-                                                <div class="field-inner">
-                                                    <span class="alt-icon far fa-clock"></span>
-                                                    <select class="l-icon">
-                                                        <option>08 : 00 am</option>
-                                                        <option>09 : 00 am</option>
-                                                        <option>10 : 00 am</option>
-                                                        <option>11 : 00 am</option>
-                                                        <option>12 : 00 pm</option>
-                                                        <option>01 : 00 pm</option>
-                                                        <option>02 : 00 pm</option>
-                                                        <option>03 : 00 pm</option>
-                                                        <option>04 : 00 pm</option>
-                                                        <option>05 : 00 pm</option>
-                                                        <option>06 : 00 pm</option>
-                                                        <option>07 : 00 pm</option>
-                                                        <option>08 : 00 pm</option>
-                                                        <option>09 : 00 pm</option>
-                                                        <option>10 : 00 pm</option>
-                                                    </select>
-                                                    <span class="arrow-icon far fa-angle-down"></span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                <div class="field-inner">
-                                                    <textarea name="fieldname" placeholder="Message"
-                                                        required></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                <div class="field-inner">
-                                                    <button type="submit" class="theme-btn btn-style-one clearfix">
-                                                        <span class="btn-wrap">
-                                                            <span class="text-one">book a table</span>
-                                                            <span class="text-two">book a table</span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-col col-lg-4 col-md-12 col-sm-12">
-                            <div class="inner">
-                                <div class="img-layer" style="background-image: url(images/background/image-11.jpg);">
-                                </div>
-                                <div class="title">
-                                    <div class="subtitle">hot deal</div>
-                                    <h5>Lunch & Dinner Specials</h5>
-                                </div>
-                                <div class="data">
-                                    <div class="discount-info">
-                                        <div class="s-ttl">up to</div>
-                                        <div class="num">45%</div>
-                                        <div class="s-ttl">discount</div>
-                                    </div>
-                                    <div class="instruction">
-                                        • Not valid for online order <br> • Non-refundable <br> • Offer end on 25 Jan
-                                        <br>
-                                    </div>
-                                    <div class="link-box">
-                                        <a href="reservation-opentable.html" class="theme-btn btn-style-one clearfix">
-                                            <span class="btn-wrap">
-                                                <span class="text-one">book now</span>
-                                                <span class="text-two">book now</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </div>

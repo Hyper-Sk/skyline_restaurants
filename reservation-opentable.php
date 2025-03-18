@@ -64,6 +64,11 @@
                                     <input type="tel" name="phone" value="" placeholder="Your Phone" required>
                                 </div>
                             </div>
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <div class="field-inner">
+                                    <input type="email" name="email" value="" placeholder="Your Email" required>
+                                </div>
+                            </div>
                             <div class="form-group col-lg-3 col-md-6 col-sm-12">
                                 <div class="field-inner">
                                     <span class="alt-icon far fa-user"></span>
@@ -167,9 +172,9 @@
                                             <li><strong>Contact Us</strong><br> Sky Line Restaurants, Moinabad, Hyderabad, Telangana <br> Call : +91
                                                 8008094786 <br> Email : skylinerestaurantsltd@gmail.com </li>
                                             <div class="separator"><span></span></div>
-                                            <li><strong>Lunch Time</strong><br>Monday to Sunday <br>11.00 am - 2.30pm
+                                            <li><strong>Lunch Time</strong><br>Monday to Sunday <br>12:00 PM - 12.00 AM
                                             </li>
-                                            <li><strong>Dinner Time</strong><br>Monday to Sunday <br>05.00 pm - 12.00pm
+                                            <li><strong>Dinner Time</strong><br>Monday to Sunday <br>12:00 PM - 12.00 AM
                                             </li>
                                         </ul>
                                     </div>

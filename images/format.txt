@@ -1,0 +1,47 @@
+format of all used images in the website : 
+
+menu page : 
+dish image -> square 
+
+chef selection image : 
+3 x 4
+
+
+homepage : 
+    we offer images : 
+        6 x 8 
+    about section :
+        square x 2 
+
+    speacial dish 
+        3 x 4
+
+    featured link : 
+        left and right image  : 
+            3 x 4 
+        centered :
+            8 x 12
+
+about page :
+    about secion centered imaged :
+        8 x 12
+    about our team section :
+        15 x 20
+    
+form with right image :
+    right image :
+        8 x 13
+
+    fixed bg image : 
+        4 x 3
+
+
+footer bg : 
+18 x 9  
+
+
+air craft menu : 
+12 x 8
+
+bread crumb :
+25 x 8

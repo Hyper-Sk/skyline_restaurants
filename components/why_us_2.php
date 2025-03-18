@@ -42,7 +42,7 @@
                     <!--Block-->
                     <div class="why-block-two m-top col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="900ms">
-                            <div class="image-box"><img src="images/resource/featured-7.jpg" alt=""></div>
+                            <div class="image-box"><img src="images/why-us-2/image-4.jpg" alt=""></div>
                             <div class="over-box">
                                 <div class="icon-box"><img src="images/resource/why-icon-4.png" alt=""></div>
                                 <h4>Event & Party</h4>

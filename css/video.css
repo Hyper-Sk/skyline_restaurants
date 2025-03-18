@@ -10,7 +10,9 @@
 }
 
 .video_section .content {
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.7344187675070029) 0%, rgba(255,255,255,0.04534313725490191) 23%);
     position: absolute;
     top: 0;
     left: 0;
@@ -20,7 +22,10 @@
 }
 
 @media screen and (max-width:560px) {
-    .video_section .video {
-        height: 100vh;
+    .video_section {
+        margin-top: 130px;
+        position: relative;
+        height: auto;
     }
+    
 }

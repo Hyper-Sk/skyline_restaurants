@@ -16,6 +16,7 @@ if (isset($_POST["send"])) {
     $date = $_POST['date'];
     $time = $_POST['time'];
     $message = $_POST['message'];
+    $email = $_POST['email'];
 
     //Create an instance; passing `true` enables exceptions
     $mail = new PHPMailer(true);
@@ -71,6 +72,13 @@ if (isset($_POST["send"])) {
                 Phone </th>
             <td style='font-size: 14px; border: 1px solid rgba(0,0,0,0.2);padding: 8px 10px;'>+91 $phone</td>
         </tr>
+        <tr>
+            <th
+                style='font-size: 14px; border: 1px solid rgba(0,0,0,0.2); text-align: left; padding: 8px 10px;width: 180px;'>
+                Email </th>
+            <td style='font-size: 14px; border: 1px solid rgba(0,0,0,0.2);padding: 8px 10px;'>$email</td>
+        </tr>
+
         <tr>
             <th
                 style='font-size: 14px; border: 1px solid rgba(0,0,0,0.2); text-align: left; padding: 8px 10px;width: 180px;'>

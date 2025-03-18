@@ -6,7 +6,7 @@
                 <div class="top-left clearfix">
                     <ul class="top-info clearfix">
                         <li><i class="icon far fa-map-marker-alt"></i>Skyline Restaurants, Moinabad, Telangana</li>
-                        <li><i class="icon far fa-clock"></i> Daily : 7.00 am to 12.00 pm</li>
+                        <li><i class="icon far fa-clock"></i> Daily : 12:00 PM to 12:00 AM</li>
                     </ul>
                 </div>
                 <div class="top-right clearfix">
@@ -39,61 +39,24 @@
                                     echo "current";
                                 } ?>"><a href="index.php">Home</a>
                                 </li>
-                                <!-- <li class="dropdown has-mega-menu"><a href="menu-list-1.php">Menus</a>
-                                    <ul>
-                                        <li>
-                                            <div class="mega-menu">
-                                                <div class="menu-inner">
-                                                    <div class="auto-container">
-                                                        <div class="row clearfix">
-                                                            <div class="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                <div class="image"><a href="menu-list-1.php"><img
-                                                                            src="images/resource/menu-image-1.jpg"
-                                                                            alt=""></a></div>
-                                                                <div class="title"><a href="menu-list-1.php">Menu list
-                                                                        1</a></div>
-                                                            </div>
-                                                            <div class="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                <div class="image"><a href="menu-list-2.php"><img
-                                                                            src="images/resource/menu-image-2.jpg"
-                                                                            alt=""></a></div>
-                                                                <div class="title"><a href="menu-list-2.php">Menu list
-                                                                        2</a></div>
-                                                            </div>
-                                                            <div class="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                <div class="image"><a href="menu-list-3.php"><img
-                                                                            src="images/resource/menu-image-3.jpg"
-                                                                            alt=""></a></div>
-                                                                <div class="title"><a href="menu-list-3.php">Menu list
-                                                                        3</a></div>
-                                                            </div>
-                                                            <div class="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                <div class="image"><a href="menu-list-4.php"><img
-                                                                            src="images/resource/s-image-4.jpg"
-                                                                            alt=""></a></div>
-                                                                <div class="title"><a href="menu-list-4.php">Menu list
-                                                                        4</a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul> 
-                                </li> -->
-                                <li class="<?php if ($page == 'menus') {
-                                    echo "current";
-                                } ?>"><a href="menu-list-1.php">Menu</a></li>
-                                <li class="<?php if ($page == 'plane_menu') {
-                                    echo "current";
-                                } ?>"><a href="menu-list-2.php">Plane Menu</a></li>
                                 <li class="<?php if ($page == 'about') {
                                     echo "current";
-                                } ?>"><a href="about.php">About
-                                        Us</a></li>
+                                } ?>"><a href="about.php">About Us</a></li>
+                                <li class="<?php if ($page == 'gallery') {
+                                    echo "current";
+                                } ?>"><a href="gallery.php">Gallery</a></li>
+
+                                <li class="<?php if ($page == 'plane_menu') {
+                                    echo "current";
+                                } ?>"><a href="menu-list-2.php">Menu</a></li>
+
+                                <li class="<?php if ($page == 'menus') {
+                                    echo "current";
+                                } ?>"><a href="menu-list-1.php">Aircraft Menu</a></li>
                                 <li class="<?php if ($page == 'history') {
                                     echo "current";
-                                } ?>"><a href="plane-history.php">Plane History</a></li>
+                                } ?>"><a href="plane-history.php">Aircraft History</a></li>
+
                                 <!-- <li class="dropdown"><a href="#">Pages</a>
                                             <ul>
                                                 <li><a href="#">Dropdown Menu 1</a></li>
@@ -174,23 +137,36 @@
                 <li class="<?php if ($page == 'home') {
                     echo "current";
                 } ?>"><a href="index.php">Home</a></li>
-                <li class="<?php if ($page == 'menus') {
-                    echo "current";
-                } ?>"><a href="menu-list-1.php">Menu</a></li>
-                  <li class="<?php if ($page == 'plane_menu') {
-                    echo "current";
-                } ?>"><a href="menu-list-2.php">Plane Menu</a></li>
-               <li class="<?php if ($page == 'about') {
+
+                <li class="<?php if ($page == 'about') {
                     echo "current";
                 } ?>"><a href="about.php">About
                         Us</a></li>
-             
+
+
+                <li class="<?php if ($page == 'gallery') {
+                    echo "current";
+                } ?>"><a href="gallery.php">Gallery
+                        </a></li>
+
+                <li class="<?php if ($page == 'plane_menu') {
+                    echo "current";
+                } ?>"><a href="menu-list-2.php">Menu</a></li>
+
+
+                <li class="<?php if ($page == 'menus') {
+                    echo "current";
+                } ?>"><a href="menu-list-1.php">Aircraft Menu</a></li>
+
+
+
+
                 <li class="<?php if ($page == 'reservation') {
                     echo "current";
                 } ?>"><a href="reservation-opentable.php">Book a Table</a></li>
                 <li class="<?php if ($page == 'history') {
                     echo "current";
-                } ?>"><a href="plane-history.php">Plane History</a></li>
+                } ?>"><a href="plane-history.php">Aircraft History</a></li>
                 <li class="<?php if ($page == 'contact') {
                     echo "current";
                 } ?>"><a href="contact-us.php">Contact Us</a></li>
@@ -228,7 +204,7 @@
         <h2>Visit Us</h2>
         <ul class="info">
             <li>Skyline Restaurants, Moinabad, Hyderabad, Telangana</li>
-            <li>Open: 7.00 am - 12.00pm</li>
+            <li>Open: 12:00 PM - 12.00 AM</li>
             <li><a href="mailto:skylinerestaurantsltd@gmail.com">skylinerestaurantsltd@gmail.com</a></li>
         </ul>
         <div class="separator"><span></span></div>
@@ -254,12 +230,12 @@
         <h2>Visit Us</h2>
         <ul class="info">
             <li>Skyline Restaurants, Moinabad, Hyderabad, Telangana</li>
-            <li>Open: 7.00 am - 12.00pm</li>
+            <li>Open: 12:00 PM - 12.00 AM</li>
             <li><a href="mailto:skylinerestaurantsltd@gmail.com">skylinerestaurantsltd@gmail.com</a></li>
         </ul>
         <div class="separator"><span></span></div>
         <div class="booking-info">
-            <div class="bk-title">Booking request</div>
+            <div class="bk-title">Booking Request</div>
             <div class="bk-no"><a href="tel:+918008094786">+91 8008094786</a></div>
         </div>
     </div>
